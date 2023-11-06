@@ -149,15 +149,17 @@ button {
 .cta {
     display: flex;
     background-color: #3882F6;
-    width: 900px;
+    flex-basis: 800px;
     padding: 32px 64px;
     border: 1px solid #3882F6;
     border-radius: 6px;
     gap: 8px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .cta-text {
-    flex-basis: 800px;
+    flex-basis: 600px;
     color: white;
 }
 
@@ -165,8 +167,8 @@ button {
     background-color: #3882F6;
     border: 1px solid white;
     color: white;
-    padding: 8px 32px;
     border-radius: 6px;
+    flex-basis: 120px;
 }
 
 .cta-sub {
